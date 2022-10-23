@@ -16,7 +16,7 @@ elif count == 2:
     else:
         p = (a1 + b1) * 2
         s = a1 * b1
-        print(f'Rectangle: a = {a1}, b = {b1}}; perimeter = {p}; square = {s}')
+        print(f'Rectangle: a = {a1}, b = {b1}; perimeter = {p}; square = {s}')
 elif count == 3:
     a, b, c = values
     a1 = int(a)
@@ -26,5 +26,5 @@ elif count == 3:
         print('Такий трикутник не може існувати')
     else:
         p = a1 + b1 + c1
-        s = a1 * b1 / c1 * a1 * 0,5
+        s = p / 2 * (p / 2 - a1) * (p / 2 - b1) * (p / 2 - c1) * 1 / 2
         print(f'Triangle: a = {a1}, b = {b1}, c = {c1}; perimeter = {p}; square = {s}')
