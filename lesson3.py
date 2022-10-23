@@ -26,5 +26,5 @@ elif count == 3:
         print('Такий трикутник не може існувати')
     else:
         p = a1 + b1 + c1
-        s = a1 * b1 * 0,5
+        s = a1 * b1 / c1 * a1 * 0,5
         print(f'Triangle: a = {a1}, b = {b1}, c = {c1}; perimeter = {p}; square = {s}')
